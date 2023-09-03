@@ -4,10 +4,10 @@ logging.basicConfig(level=logging.INFO)
 
 from telegram.ext import Updater, CommandHandler, MessageHandler
 
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "later"
 
 def start(update, context):
-    update.message.reply_text("Welcome to my bot! I can help you with your questions.")
+    update.message.reply_text("Welcome to the bot! I can help you with your questions. send /ask ")
 
 def ask(update, context):
     query = update.message.text
