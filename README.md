@@ -4,5 +4,9 @@
 ## Usage 
 
 pip install python-telegram-bot==13.7
+
 pip install gradio_client
+
 python bot.py
+
+### replace Token with your telegram bot token from botfather.t.me
