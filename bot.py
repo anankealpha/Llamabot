@@ -1,7 +1,7 @@
 
 import logging
 logging.basicConfig(level=logging.INFO)
-
+from gradio_client import Client
 from telegram.ext import Updater, CommandHandler, MessageHandler
 
 TOKEN = "later"
